@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // Middleware para parse do body
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -38,7 +38,15 @@ const AFORISMOS = [
   'DEUS DÁ NOZES A QUEM NÃO TEM DENTES',
   'DEUS DÁ DENTES A QUEM NÃO TEM NOZES!',
   'CAIRAM-ME OS QUILHÕES AGORA',
-  'O MAIA IR AO TOMORROWLAND JOGAR PADEL É O MESMO QUE IR ÀS PUTAS E PEDIR UM ABRAÇO'
+  'O MAIA IR AO TOMORROWLAND JOGAR PADEL É O MESMO QUE IR ÀS PUTAS E PEDIR UM ABRAÇO',
+  'JÁ EXPLIQUEI ESTÁ MERDA 3 VEZES NINGUÉM PERCEBEU, QUEREM QUE EXPLIQUE EM QUE? VIETNAMITA?',
+  'PEIXE DE AVIÁRIO',
+  '10 DE JANEIRO DESTE MÊS',
+  'PREFIRO LEVAR NO CÚ',
+  'SE HÁ COISA QUE O ZÉ DOS CÃES TÊM É A VERTENTE SOCIAL',
+  'CIDADES PERTO DE BARCELONA? MILÃO',
+  'DUAS ARREBENTADAS, MAS NÃO DEIXAM DE SER DUAS FÊMEAS',
+  'EU DA FORMA COMO CAGO, AS VEZES PENSO QUE LEVO NO CÚ'
 ];
 
 // Função para escolher um aforismo aleatório
